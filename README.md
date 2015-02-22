@@ -80,3 +80,47 @@ Used the dplyr package and in particular:
 tidy_data <-leandata %>% group_by(Activity,Subject) %>% summarise_each(funs(mean))
 to create a new dataframe tidy_data, which contained the data needed.
  
+CODEBOOK:
+
+The original codebook, describing the variables is contained here:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The activities captured in this summarized and edited output are LAYING, SITTING, STANDING, WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS.
+The subjects are (unnamed) persons 1-30
+The variables capture the average result of all entries in the original test and train files for the following variables:
+
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tGravityAcc-mean()-X
+tGravityAcc-mean()-Y
+tGravityAcc-mean()-Z
+tBodyAccJerk-mean()-X
+tBodyAccJerk-mean()-Y
+tBodyAccJerk-mean()-Z
+tBodyGyro-mean()-X
+tBodyGyro-mean()-Y
+tBodyGyro-mean()-Z
+tBodyGyroJerk-mean()-X
+tBodyGyroJerk-mean()-Y
+tBodyGyroJerk-mean()-Z
+tBodyAccMag-mean()
+tGravityAccMag-mean()
+tBodyAccJerkMag-mean()
+tBodyGyroMag-mean()
+tBodyGyroJerkMag-mean()
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y
+fBodyAcc-mean()-Z
+fBodyAccJerk-mean()-X
+fBodyAccJerk-mean()-Y
+fBodyAccJerk-mean()-Z
+fBodyGyro-mean()-X
+fBodyGyro-mean()-Y
+fBodyGyro-mean()-Z
+fBodyAccMag-mean()
+fBodyBodyAccJerkMag-mean()
+fBodyBodyGyroMag-mean()
+fBodyBodyGyroJerkMag-mean()
+
+
